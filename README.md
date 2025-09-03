@@ -1,4 +1,27 @@
-This repository contains all datasets and source code used in the **self-driving active learning campaign**, as well as non-self-driving experiments described in: **“Self-driving lab for the data-driven design of single-chain polymer nanoparticles.**
+<h1><a href="radio.garden">Self-driving lab for the data-driven design of single-chain polymer nanoparticles</h1>
+<h4>Alexander Suponya, Elena Di Mare, Cesar Ramírez, Apostolos Maroulis, Dylan Waynor,
+Cristian López, D. Chris Radford and Adam J. Gormley</h4>
+
+<p align="center"> [<b>Paper</a></b>]
+
+![SCNP_img](https://user-images.githubusercontent.com/113135749/190904376-19bcdb67-3166-4081-b9de-624ca610d8f1.jpg)
+
+## Contents
+
+- [Overview](#overview)
+- [Repository Structure](#repository-structure)
+- [Source Code](#repository-structure)
+- [Setup](#setup)
+- [How It Works](#how it works)
+- [Software Requirements](#software-requirements)
+- [Contact](https://github.com/GormleyLab/Data_Driven_Design_of_SCNPs/issues)
+- [Citation](#license)
+- [License](#license)
+
+
+## Overview
+
+This repository contains all datasets and source code used in the **self-driving active learning campaign**, as well as non-self-driving experiments described in: **“Self-driving lab for the data-driven design of single-chain polymer nanoparticles".**
 
 ## Repository Structure
 
@@ -15,7 +38,7 @@ as the instrumentation was not configured in a self-driving fashion at that time
 
 ---
 
-## Source Code Overview
+## Source Code
 
 The source code provides a **Python wrapper** for the **Wyatt Technology DynaPro III Plate Reader DLS instrument**, integrating with the **DYNAMICS 7** software and **DYNAMICS SDK 3.0.1** (originally written in C#).
 
@@ -44,7 +67,7 @@ The source code provides a **Python wrapper** for the **Wyatt Technology DynaPro
 
 ---
 
-## Setting Up an Instrument Control File
+## Setup
 
 To begin running a self-driving experiment:
 
@@ -78,6 +101,16 @@ This may need to be adjusted accordingly.
 
 ---
 
+## Software Requirements
+```
+numpy
+scikit-learn
+pandas
+keras
+evidential-deep-learning
+tensorflow
+```
+
 ## Contact
 
 For issues or questions regarding this dataset or software, please contact:
@@ -91,3 +124,7 @@ For issues or questions regarding this dataset or software, please contact:
 
 If you use this repository, please cite the corresponding publication:  
 **“Self-driving lab for the data-driven design of single-chain polymer nanoparticles.”**
+
+## License
+
+This project is covered under the **Apache 2.0 License**.

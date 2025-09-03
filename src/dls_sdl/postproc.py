@@ -167,7 +167,7 @@ def postprocess_dls(exp_folder, exp_name, cycle, n_384_reps, batch_size, reagent
     else:
 
         #acf_file_data = pd.read_excel(acf_file, index_col=None)
-        acf_file = os.path.join(exp_folder,f'{exp_name_with_cycle}_ACF.csv')
+        acf_file = os.path.join(exp_folder,f'{exp_name_with_cycle}_Raw.csv')
         acf_file_data = pd.read_csv(acf_file, encoding= 'unicode_escape',index_col=0).dropna(axis=1, how='all')
         acf_file_data.columns = acf_file_data.columns.str.strip()
 

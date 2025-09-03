@@ -1,7 +1,4 @@
-# Self-Driving Polymer Nanoparticle Data & Instrument Control
-
 This repository contains all datasets and source code used in the **self-driving active learning campaign**, as well as non-self-driving experiments described in: **“Self-driving lab for the data-driven design of single-chain polymer nanoparticles.**
----
 
 ## Repository Structure
 
@@ -13,7 +10,7 @@ This repository contains all datasets and source code used in the **self-driving
 
 > All experiment files contain a **typo**:  
 > ⚠️ _poly(ethylene glycol) methyl ether acrylate (PEGMEA)_ is represented as **“mPEG”**.
-> _Note: For homopolymer / copolymer data, lightbox and DLS template spreadsheets were omitted,
+_Note: For homopolymer / copolymer data, lightbox and DLS template spreadsheets were omitted,
 as the instrumentation was not configured in a self-driving fashion at that time._
 
 ---
@@ -78,7 +75,7 @@ The control file is loaded by a parser that:
 
 ---
 
-## 📬 Contact
+## Contact
 
 For issues or questions regarding this dataset or software, please contact:
 
@@ -87,7 +84,7 @@ For issues or questions regarding this dataset or software, please contact:
 
 ---
 
-## 📄 Citation
+## Citation
 
 If you use this repository, please cite the corresponding publication:  
 **“Self-driving lab for the data-driven design of single-chain polymer nanoparticles.”**

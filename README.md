@@ -67,11 +67,14 @@ To begin running a self-driving experiment:
 
 ## How It Works
 
-The control file is loaded by a parser that:
+The control file is loaded by a parser (not included) that:
 - Reads parameters and triggers the `active_learning_with_dls()` method.
 - Detects updates between generations (especially the `cycle` parameter).
 - Enables intelligent pre-processing (e.g., selecting new polymers vs re-sampling).
 - ⚠️ Checkpointing functionality within active learning generations is under development.
+
+The file `wrap_dls_helpers.py` is configured to search for a DLS presets folder specifically in the same location as the parser described above.
+This may need to be adjusted accordingly.
 
 ---
 

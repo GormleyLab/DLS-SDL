@@ -1,10 +1,6 @@
 <h1><a href="radio.garden">Self-driving lab for the data-driven design of single-chain polymer nanoparticles</h1>
 <h4>Alexander Suponya, Elena Di Mare, Cesar Ramírez, Apostolos Maroulis, Dylan Waynor,
-Cristian López, D. Chris Radford and Adam J. Gormley</h4>
-
-<p align="center"> [<b>Paper</a></b>]
-
-![SCNP_img](https://user-images.githubusercontent.com/113135749/190904376-19bcdb67-3166-4081-b9de-624ca610d8f1.jpg)
+Cristian López, Chris Radford and Adam Gormley</h4>
 
 ## Contents
 

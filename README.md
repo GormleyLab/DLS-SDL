@@ -8,7 +8,7 @@ Cristian López, Chris Radford and Adam Gormley</h4>
 - [Repository Structure](#repository-structure)
 - [Source Code](#repository-structure)
 - [Setup](#setup)
-- [How It Works](#how it works)
+- [How It Works](#how-it-works)
 - [Software Requirements](#software-requirements)
 - [Contact](https://github.com/GormleyLab/Data_Driven_Design_of_SCNPs/issues)
 - [Citation](#license)

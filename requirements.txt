@@ -1,1 +1,11 @@
+alive-progress
+matplotlib
+natsort
 numpy
+pandas
+pydoe
+pythonnet
+seaborn
+scipy
+shap
+sklearn

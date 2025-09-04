@@ -29,6 +29,7 @@ This repository contains all datasets and source code used in the **self-driving
 
 > All experiment files contain a **typo**:  
 > ⚠️ _poly(ethylene glycol) methyl ether acrylate (PEGMEA)_ is represented as **“mPEG”**.
+
 > _Note: For homopolymer / copolymer data, lightbox and DLS template spreadsheets were omitted,
 as the instrumentation was not configured in a self-driving fashion at that time.
 This means that `source_acf_from_api` and `source_hist_from_api` must be set to `False`

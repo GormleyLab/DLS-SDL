@@ -1,4 +1,4 @@
-<h1><a href="radio.garden">Self-driving lab for the data-driven design of single-chain polymer nanoparticles</h1>
+<h1><a href="https://radio.garden/">Self-driving lab for the data-driven design of single-chain polymer nanoparticles</h1>
 <h4>Alexander Suponya, Elena Di Mare, Cesar Ramírez, Apostolos Maroulis, Dylan Waynor,
 Cristian López, Chris Radford and Adam Gormley</h4>
 

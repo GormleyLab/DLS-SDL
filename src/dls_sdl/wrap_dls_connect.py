@@ -1,6 +1,7 @@
 import sys
 import clr
 
+# Path to dynamicsLib.dll. To access, contact Waters | Wyatt Technology at wyatt.com/support
 dynamics_path = r'C:\Program Files (x86)\WTC\DYNAMICS SDK 3.0.1\Src\ComTest\Bin\Release'
 
 dynamicsLib = None

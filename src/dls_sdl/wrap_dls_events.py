@@ -67,6 +67,7 @@ async def wait_for_dls_acquisitions(timeout=60):
            raise TimeoutError(f'Only {tracker.count}/{tracker.expected} acquisitions received')
         await asyncio.to_thread(tracker.event.wait)
 
+# Function that detects whether or not DLS has finished moving to its specified well
 def wait_for_dls_move(handle, well, timeout=20):
     well = remove_leading_zero(well)
     startMove = time.time()
@@ -77,6 +78,7 @@ def wait_for_dls_move(handle, well, timeout=20):
     print('Time elapsed: %.3f seconds' % elapsed)
     return True
 
+# Function that moves a DLS from its current position to a specified well
 async def async_dls_move(handle, well, timeout=20):
     global move_tracker
     move_tracker.start(well)
@@ -156,6 +158,7 @@ events = [on_dls_error, on_dls_scheduler_done, on_dls_event_scheduler_msg,
     on_dls_acq_done, on_dls_meas_done, on_dls_temp_lock, 
     on_dls_auto_atten, on_dls_move_done, on_dls_door_state_change]
 
+# Enable event tracking when initializing DLS
 def bind_events(dynapro, events):
     on_error, on_scheduler_done, on_event_scheduler_msg, on_acq_done, on_meas_done, on_temp_lock, on_auto_atten, on_move_done, on_door_state_change = events
     dynapro.OnDataCollectionError += on_error
@@ -169,6 +172,7 @@ def bind_events(dynapro, events):
     dynapro.OnDoorStateChange += on_door_state_change
     #dynapro.OnDoorFullyOpen += on_door_fully_open
 
+# Disable event tracking after DLS experiment is complete
 def unbind_events(dynapro, events):
     on_error, on_scheduler_done, on_event_scheduler_msg, on_acq_done, on_meas_done, on_temp_lock, on_auto_atten, on_move_done, on_door_state_change = events
     dynapro.OnDataCollectionError -= on_error

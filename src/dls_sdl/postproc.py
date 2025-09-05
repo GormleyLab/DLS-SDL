@@ -230,6 +230,7 @@ def postprocess_dls(exp_folder, exp_name, cycle, n_384_reps, batch_size, reagent
     var_series = pd.to_numeric(var_series)
     var_series.index = dls_table_data.index
 
+    # Set respective 96 and 384 well plate positions to determine which wells to compute average metrics for
     offset_96 = 0
     offset_384 = 0
     positions_96 = [rows_96[x%8]+cols_96[offset_96+x//8] for x in range(len(dls_table_data)//n_384_reps)]
